@@ -1,0 +1,128 @@
+.imageClass {
+    width: 40%;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.container-price {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+    align-self: center;
+}
+
+.container-product {
+    padding: 0.5rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+.container-infos {
+    align-self: flex-start;
+}
+
+.quantity {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px;
+    color: rgb(239, 239, 239);
+    width: 5rem;
+    padding: 0.4rem;
+
+}
+
+
+
+
+.text-rod {
+    text-decoration: line-through;
+}
+
+.quantity>* {
+    color: rgb(85, 85, 85);
+    font-size: 1rem;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+.container-checkout>* {
+    width: 90%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-checkout>*:nth-child(4) {
+
+    font-size: 1.5rem;
+
+}
+
+.btn-checkout {
+
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000000;
+    padding: 10px 46px;
+    border: solid #ffffff 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 6px;
+    transition: 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin: 1rem;
+
+}
+
+.btn {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.shoppingCartWrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.subtotal-cart {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    align-self: flex-start;
+}
+
+.checkout {}

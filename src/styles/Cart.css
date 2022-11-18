@@ -1,0 +1,47 @@
+.wrapperCarts {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.productsInCart {
+    width: 70%;
+}
+
+.checkoutcart {
+    width: 30%;
+}
+
+.product-item {
+    padding: 1rem;
+}
+
+.image-cart {
+    max-width: 120px;
+    max-height: 120px
+}
+
+.delete-btn {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.text-rod {
+    text-decoration: line-through;
+}
+
+.container-info {
+    align-self: flex-start;
+    align-items: flex-start;
+}
+
+.container-product-infos {
+    display: flex;
+}
+
+.cart-product-info {
+    margin-left: 1rem;
+    min-width: 15rem;
+}

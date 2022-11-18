@@ -1,0 +1,62 @@
+#login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#logo-container img {
+  aspect-ratio: auto;
+  width: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form>sl-input {
+  width: 100%;
+}
+
+.submit-btn {
+  width: 40%;
+}
+
+sl-input.input-primary::part(base) {
+  border-color: red;
+  border-radius: 1em;
+}
+
+sl-input.input-login::part(form-control) {
+  margin: 1.2rem;
+}
+
+sl-input.input-primary::part(input):focus {
+  outline: none;
+}
+
+sl-input.input-primary::part(input)::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+sl-button.submit-btn::part(base):hover {
+  background-color: red;
+  color: white;
+}
+
+sl-button.submit-btn::part(base) {
+  color: black;
+  font-weight: bold;
+  border-color: red;
+}

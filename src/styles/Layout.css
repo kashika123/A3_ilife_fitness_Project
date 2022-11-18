@@ -1,0 +1,89 @@
+#menu-container {
+  width: 100%;
+  display: flex;
+  height: 100px;
+}
+
+.horizontal-menu {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  border: none;
+  border-radius: inherit;
+  justify-content: end;
+  align-items: center;
+}
+
+sl-menu-item a,
+sl-icon {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+sl-menu-item::part(base) {
+  background-color: inherit;
+  font-size: 20px;
+}
+
+sl-menu-item a:hover {
+  color: var(--main-red);
+}
+
+#logo-container-menu {
+  background-color: var(--main-black);
+  padding: 10px 10px 10px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+}
+
+#logo-container-menu img {
+  width: 80%;
+  height: 180%;
+  position: relative;
+  top: 10px;
+}
+
+.links-footer a,
+p {
+  font-family: "Roboto";
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+
+.links-footer a {
+  color: black;
+}
+
+
+/* BOOTSTRAP CUSTOM */
+
+.navbar-custom {
+  background-color: black;
+  color: white;
+}
+
+.navbar-nav-custom a,
+.navbar-nav-custom a:focus {
+  color: white;
+  font-size: 1.3rem;
+}
+
+
+.navbar-nav-custom a:hover {
+  color: var(--main-red);
+}
+
+.navbar-nav-custom li {
+  margin-left: 15px;
+  margin-right: 15px
+}
+
+.custom-navbar-icon {
+  font-size: 35px;
+  background-color: white;
+  border-color: rgb(255, 102, 203);
+
+}

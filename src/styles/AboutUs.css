@@ -1,0 +1,29 @@
+.text-about p {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+.text-about li {
+  font-size: 2rem;
+  line-height: 4rem;
+  margin-top: 1rem;
+  font-family: 'Roboto';
+
+}
+
+
+section#about-us-container {
+  width: 100%;
+}
+
+#img-container {
+  align-content: center;
+  width: 100%;
+  display: flex;
+}
+
+
+#img-container>img {
+  width: 60%;
+  margin: auto auto;
+}

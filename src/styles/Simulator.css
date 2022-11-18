@@ -1,0 +1,93 @@
+.label-on-top::part(form-control) {
+    align-items: center;
+    gap: 1rem;
+}
+
+.label-on-top::part(form-control-label) {
+    flex: 0 0 auto;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.label-on-top::part(form-control-input) {
+    flex: 1 1 auto;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+sl-select.label-on-top {
+    width: 100%;
+}
+
+.form-radio-register::part(base) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+
+.conditions {
+    margin-top: 2rem;
+
+}
+
+.form-radio-label {
+    margin-top: 1.5rem;
+    align-items: flex-end;
+    font-weight: bold;
+
+}
+
+.label-on-left::part(base) {
+    box-shadow: 2px 3px 3px #656565;
+}
+
+.form-register-simulator {
+    width: 70%;
+    font-family: 'Robotto', sans-serif;
+}
+
+.form-radio-btn::part(base) {
+    margin-left: 100px;
+}
+
+@media all and (max-width:500px) {
+    .form-register-simulator {
+        width: 100%;
+        font-family: 'Robotto', sans-serif;
+    }
+}
+
+.submit-btn-register::part(base) {
+    margin-top: 3rem;
+    border-radius: 5px;
+    color: white;
+    background-color: #ED1B29;
+}
+
+sl-button.submit-btn-simulator::part(base) {
+    font-family: 'Robotto', sans-serif;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: #ED1B29;
+
+}
+
+sl-button.submit-btn-simulator::part(base):hover {
+    font-family: 'Robotto', sans-serif;
+    width: 100%;
+    border: 1px solid #ED1B29;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    background-color: white;
+
+}

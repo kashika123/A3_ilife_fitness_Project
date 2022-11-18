@@ -1,0 +1,8 @@
+p.activities {
+    font-family: "roboto";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-justify: auto;
+}

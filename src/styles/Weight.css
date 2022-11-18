@@ -1,0 +1,136 @@
+p.activities {
+    font-family: "roboto";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: 2rem;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-justify: auto;
+}
+
+.title-weight {
+    font-family: "roboto";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #EE1C29;
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    font-size: 1rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-item ul li {
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 700px) {
+    .text-item ul li {
+        font-size: 1.2rem;
+    }
+
+    .title-weight {
+        font-family: "roboto";
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: #EE1C29;
+        border-radius: 0px 50px 50px 0px;
+        color: white;
+        font-size: 1.5rem;
+        width: 98%;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row-weight {
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+.text-item ul {
+    padding: 0 !important;
+}
+
+.text-item li {
+    font-family: 'Roboto'
+}
+
+.row-weight {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-weight-red {
+    background-color: #EE1C29;
+    height: 0.5rem;
+    width: 98%;
+    border-radius: 0px 50px 50px 0px;
+
+}
+
+.line-weight-black {
+    background-color: black;
+    height: 0.5rem;
+    width: 98%;
+    border-radius: 0px 50px 50px 0px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+
+
+}
+
+.day-weight-red {
+
+    font-size: 4rem;
+    font-weight: bold;
+    background-color: #EE1C29;
+    display: inline-block;
+    padding: 1rem;
+    width: 100px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.day-weight-red-small {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #EE1C29;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.day-weight-black {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    background-color: black;
+    display: inline-block;
+    width: 100px;
+    padding: 1rem;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.day-weight-black-small {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 0px 30px 30px 0px;
+}

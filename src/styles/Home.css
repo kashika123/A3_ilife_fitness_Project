@@ -1,0 +1,521 @@
+:root {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+  overflow-x: hidden;
+
+}
+
+#section-one {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container-home {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: #00000047;
+}
+
+#image-gallery-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+#newsletter {
+  width: 500 px;
+}
+
+#image-gallery-container>.gallery-chevron {
+  position: relative;
+  bottom: 100px;
+}
+
+#section-one .media #image-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.btn-diet {
+  align-self: center;
+  color: #ee1c29;
+}
+
+.diet-plan {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+
+
+
+}
+
+.weight-loss {
+  position: relative;
+  width: 100%;
+}
+
+.click-weight {
+  cursor: pointer;
+
+}
+
+.weight-gain {
+  position: relative;
+  width: 100%;
+
+}
+
+.diet-weight-loss {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.diet-weight-gain {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.diet-weight-loss-p {
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  text-align: center;
+  width: 568px;
+}
+
+
+sl-button.btn-diet::part(base) {
+  margin-top: 3rem;
+  background-color: transparent;
+  border: 2px solid var(--main-red);
+  font-size: 13px;
+  color: #000;
+  width: 200px;
+}
+
+sl-input.home-input::part(form-control) {
+  width: 100%;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+sl-input.home-input::part(base) {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#newsletter sl-button {
+  display: flex;
+}
+
+
+sl-checkbox.terms-and-conditions::part(base) {
+  width: 100%;
+
+}
+
+
+#section-diet {
+  font-size: 3rem;
+
+}
+
+#section-diet h1,
+#section-two h1 {
+  font-size: 2.5rem;
+}
+
+#section-diet p,
+#section-two p {
+  font-family: "Roboto";
+  font-size: 2rem;
+  line-height: 4rem;
+
+
+}
+
+
+
+#section-two h1 {
+  color: black !important;
+}
+
+#section-body-simulator {
+  width: 100vw;
+}
+
+
+.simulator-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.bodyBuilder-Woman {
+  /* Preserve aspet ratio */
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: absolute;
+}
+
+.simulator-text {
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+  overflow: hidden;
+  position: absolute;
+}
+
+.simulator-text h1 {
+  line-height: 1.4em;
+  font-size: 2.5rem;
+  color: white;
+  animation: main-text-load 1000ms ease-in;
+}
+
+#section-one .media {
+  width: 100vw;
+  height: 100vh;
+  position: relative
+}
+
+#section-one .media #image-container img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+
+}
+
+
+
+#text-collection h1 {
+  line-height: 1.4em;
+  font-size: 62px;
+  color: white;
+  animation: main-text-load 1000ms ease-in;
+}
+
+#section-two {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+}
+
+#section-two h1 {
+  color: #ee1c29;
+  font-size: 44px;
+  margin-bottom: 1px !important;
+  animation: marquee 10s linear infinite;
+  width: 100%;
+  text-align: center;
+}
+
+#section-two h4 {
+  font-size: 15px;
+  margin-bottom: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+.arrival-item-container {
+  width: 305px;
+  height: 305px;
+  min-width: 305px;
+  overflow: hidden;
+  position: relative;
+  display: inherit;
+}
+
+#slider {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  margin-bottom: 40px;
+}
+
+.arrival-item-container span {
+  position: absolute;
+  z-index: 1;
+  color: rgb(255, 252, 252);
+  padding: 2px 12px;
+  background-color: rgb(0, 0, 0);
+  border-color: #142026;
+  border-width: 1px;
+  border-radius: 30px;
+  margin: 0px;
+  font-size: 14px;
+}
+
+.gallery-chevron {
+  cursor: pointer;
+}
+
+.product-description {
+  margin-left: 8px;
+}
+
+.normal-product-price {
+  text-decoration: line-through;
+}
+
+.price-container span {
+  margin-right: 10px;
+}
+
+sl-button.button-hover::part(base):hover {
+  background-color: var(--main-red);
+  color: white;
+}
+
+sl-button.shop-btn::part(base) {
+  background-color: transparent;
+  border: 2px solid var(--main-red);
+  font-size: 13px;
+  color: white;
+  width: 200px;
+}
+
+#text-collection sl-button {
+  animation: main-text-load 1050ms ease-in;
+}
+
+.action-container {
+  margin-top: 15px;
+  visibility: hidden;
+}
+
+.product-counter sl-button::part(base) {
+  color: var(--main-black);
+  font-size: 35px;
+  font-weight: 100;
+  position: relative;
+  top: -3px;
+}
+
+.display {
+  visibility: visible !important;
+}
+
+#section-three {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+#section-three h1 {
+  color: white;
+  font-size: 44px;
+}
+
+.category-item {
+  width: 400px;
+  min-width: 305px;
+  overflow: hidden;
+  position: relative;
+  display: inherit;
+  cursor: pointer;
+}
+
+.category-item p {
+  position: absolute;
+  color: white;
+  bottom: 13px;
+  font-size: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "anton", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  left: 0;
+  right: 0;
+
+}
+
+#category-list-container {
+  display: flex;
+}
+
+#newsletter {
+  width: 100%;
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#newsletter form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#newsletter form sl-input {
+  width: 100%;
+  font-family: "Roboto";
+}
+
+#section-one h1 {
+  font-size: 2.5rem;
+}
+
+#section-one p {
+  color: white;
+  font-size: 1.4em;
+  line-height: 2em;
+}
+
+.btn-simulator {
+  position: relative;
+}
+
+.simulator-text-btn {
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+.circle-simulator {
+  z-index: 10;
+
+}
+
+.btn-simulator-hover {}
+
+.img-simulator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 2px solid #ee1c29;
+  background: black;
+}
+
+#section-body-simulator p {
+  color: white;
+  font-size: 1.4em;
+  line-height: 1.7em;
+}
+
+#section-body-simulator h1 {
+  font-size: 2.5rem;
+
+}
+
+#newsletter sl-input::part(form-control-label) {
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#newsletter sl-input::part(input) {
+  color: white;
+}
+
+#newsletter sl-input::part(base) {
+  background-color: var(--main-black);
+  border-color: var(--main-red);
+}
+
+#newsletter sl-checkbox::part(control) {
+  border-radius: 12px;
+  width: 25px;
+  height: 25px;
+  background-color: var(--main-black);
+  border-color: var(--main-red);
+}
+
+#newsletter sl-checkbox::part(label) {
+  color: white;
+}
+
+
+form #terms-and-conditions {
+  width: 100%;
+  display: flex;
+}
+
+sl-button.submit-news-letter::part(base) {
+  margin-top: 2rem;
+  background-color: transparent;
+  border: 2px solid var(--main-red);
+  color: var(--main-white);
+}
+
+.overlay:hover+img.slider-image {
+  transform: scale(1.5);
+}
+
+@keyframes main-text-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-0%);
+  }
+}
